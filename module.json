@@ -1,0 +1,24 @@
+{
+  "name": "daivietcom/theme-cavoni",
+  "displayName": "Cavoni",
+  "type": "theme",
+  "description": "The Cavoni theme for DVCHAT",
+  "homepage": "https://github.com/daivietcom/theme-cavoni",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "DVCHAT",
+      "email": "admin@dvchat.vn"
+    }
+  ],
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "DVThemes\\Cavoni\\": "/"
+    }
+  },
+  "providers": [
+    "DVThemes\\Cavoni\\ModuleServiceProvider"
+  ]
+}
